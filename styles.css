@@ -38,3 +38,70 @@ footer {
     background: #333;
     color: #fff;
 }
+
+/* section1 */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 50px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+    background: url('abstract-shapes.svg') no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+  
+  .content h1 {
+    color: #333;
+    margin: 0;
+  }
+  
+  .content h2 {
+    color: #333;
+    margin: 0;
+    font-size: 3em;
+  }
+  
+  .content p {
+    color: #666;
+  }
+  
+  .hire-me {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .image-container {
+    flex-basis: 40%;
+    text-align: center;
+  }
+  
+  .profile-image {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    object-fit: cover; 
+    display: block; 
+    margin: 0 auto; 
+    border: 6px solid #fff; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+  }
+  
+  
