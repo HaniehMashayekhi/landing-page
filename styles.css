@@ -503,6 +503,22 @@
   
   /* end of publications */
 
+  /* Volunteering */
+  .Volunteering-list {
+    display: grid;
+     grid-gap: 1rem 
+  }
+  .Volunteering-circle {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: var(--text-color);
+    border-radius: 50%;
+    margin-right: 0.75rem;
+  }
+  
+  /* end of Volunteering */
+
   /* scroll top */
   .scrolltop {
       position: fixed;
