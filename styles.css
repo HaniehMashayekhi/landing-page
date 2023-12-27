@@ -190,10 +190,7 @@
       color: var(--title-color);
       font-weight: var(--font-medium);
   }
-  ul {
-      padding: 0;
-      list-style: none;
-  }
+  
   a {
       text-decoration: none;
   }
@@ -492,31 +489,15 @@
     display: grid;
      grid-gap: 1rem 
   }
-  .publications-circle {
-    display: inline-block;
-    width: 5px;
-    height: 5px;
-    background-color: var(--text-color);
-    border-radius: 50%;
-    margin-right: 0.75rem;
-  }
+
   
   /* end of publications */
 
   /* Volunteering */
-  .Volunteering-list {
+  .volunteering-list {
     display: grid;
      grid-gap: 1rem 
   }
-  .Volunteering-circle {
-    display: inline-block;
-    width: 5px;
-    height: 5px;
-    background-color: var(--text-color);
-    border-radius: 50%;
-    margin-right: 0.75rem;
-  }
-  
   /* end of Volunteering */
 
   /* scroll top */
@@ -597,7 +578,7 @@
     }
     .languages-content {
         grid-template-columns: repeat(3, max-content);
-        column-gap: 2.5rem;
+        column-gap: 1.5rem;
     }
     .publications-container {
         grid-template-columns: repeat(4, max-content);
